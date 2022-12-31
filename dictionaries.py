@@ -32,3 +32,4 @@ letter_dictionary = {"A": "a", "B": "b", "C": "c"}
 for i in letter_dictionary:
     print(i)
     print(letter_dictionary[i])
+    
