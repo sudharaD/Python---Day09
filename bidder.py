@@ -24,9 +24,7 @@ while repeat:
     bid = int(input("What is your bid?: $"))
     answer = input("Are there any other bidders? Type 'yes' or 'no'.\n")
 
-    if answer == "yes":
-        repeat = True
-    else:
+    if answer == "no":
         repeat = False
 
     bidders_dictionary[name] = bid
